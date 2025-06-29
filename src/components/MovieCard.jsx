@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import timeFormat from "../lib/timeFotmat";
 
 const MovieCard = ({ movie }) => {
+  
   const navigate = useNavigate();
 
   return (
